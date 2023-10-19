@@ -1,12 +1,14 @@
 import './App.css'
-import Pizza from './components/Pizza'
+// eslint-disable-next-line no-unused-vars
+import Header from './components/Header'
+import Menu from './components/Menu'
 
-function App() {
+function App () {
   return (
-    <>
-      <h1>Hello react</h1>
-      <Pizza />
-    </>
+    <div className='container'>
+      <Header />
+      <Menu />
+    </div>
   )
 }
 

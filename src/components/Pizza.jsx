@@ -1,6 +1,10 @@
-const Pizza = () => {
+const Pizza = ({ name, ingredients, photoName }) => {
   return (
-    <h2>Pizza</h2>
+    <div>
+      <img src={photoName} alt="Spinaci" />
+      <h3>{name}</h3>
+      <p>{ingredients}</p>
+    </div>
   )
 }
 
